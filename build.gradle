@@ -297,8 +297,12 @@ dependencies {
      **/
     implementation "org.apereo.cas:cas-server-support-rest"
 
+    // 6.4.0-RC1
+
     // Swagger API docs generation
     implementation "org.apereo.cas:cas-server-support-swagger"
+    // Database authentication
+    implementation "org.apereo.cas:cas-server-support-jdbc"
     
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
