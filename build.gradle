@@ -297,7 +297,8 @@ dependencies {
      **/
     implementation "org.apereo.cas:cas-server-support-rest"
 
-
+    // Swagger API docs generation
+    implementation "org.apereo.cas:cas-server-support-swagger:${project.'cas.version'}"
     
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
