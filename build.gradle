@@ -303,6 +303,8 @@ dependencies {
     implementation "org.apereo.cas:cas-server-support-swagger"
     // Database authentication
     implementation "org.apereo.cas:cas-server-support-jdbc"
+    // Hashicorp Vault Settings integration
+    implementation "org.apereo.cas:cas-server-support-configuration-cloud-vault"
     
     testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
